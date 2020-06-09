@@ -1474,6 +1474,8 @@ class Orbit:
         interactive : bool, optional
             Produce an interactive (rather than static) image of the orbit, default to False.
             This option requires Plotly properly installed and configured for your environment.
+        animate : bool, optional
+            Produce an animated (rather than static) image of the orbit, default to False.
 
         """
         if not interactive and use_3d:
